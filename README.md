@@ -1,2 +1,2 @@
-# CSE428
-Example repo of CSE 428 project
+# CSE428 Capstone Projects
+Repo of CSE 428 project

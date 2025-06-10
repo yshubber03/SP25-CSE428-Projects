@@ -1,5 +1,0 @@
-,conversation,detailed_description,chest_xray,mri,histology,gross,ct_scan,overall
-gpt4_score,8.83,8.92,8.89,8.82,8.95,8.71,8.88,8.85
-pred_score,6.98,6.76,7.27,6.89,7.00,6.76,6.67,6.92
-pred_relative_score,79.17,75.79,81.70,78.13,78.13,78.83,75.04,78.30
-data_size,143.00,50.00,37.00,38.00,44.00,34.00,40.00,193.00

@@ -30,11 +30,11 @@ I benchmarked Higashi on:
 ## 🧠 Workflow Summary
 
 ```bash
-Raw scHi-C (.pairs or .txt)
+Raw scHi-C (.pairs)
         │
         ▼
 [ HiCFoundation ]
-Resolution-enhanced contact maps (.pkl or .pairs)
+Enhanced contact maps (.pkl or .pairs)
         │
         ▼
 [ Format Conversion ]
@@ -48,8 +48,8 @@ UMAP embeddings, clustering, visualization
 
 ## Data 
 
-The data run for baseline is the 4DN Human cell line data from []
-The data used for this workflow is the HiRES dataset from GEO[accession number: GSE223917]
+The data run for baseline is the 4DN Human cell line data from [https://noble.gs.washington.edu/proj/schic-topic-model]
+The data used for this workflow is the mouse brain HiRES dataset from GEO[accession number: GSE223917]
 
 Input data:
 

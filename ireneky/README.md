@@ -19,15 +19,19 @@ I benchmarked Higashi on:
 - `config/`: JSON config files used for Higashi training
 - `higashi_data_v1/`: contains data .txt for 400 .pairs enhanced scHiC data (using HiCFoundation) and label_info.pickle which contains the metadata. **not included due to large file size
 - `report/`: Final report (PDF/Word) detailing results and conclusions
+- `capstone_project.ipynb`: This is the script for running HiCFoundation on the data and converting to Higashi input format. ps: (may need to be downloaded to view )
+- `capstone_project_2.ipynb`: Script for generating embedding for clustering
+- `Higashi_eg_data.ipynb`: Script for regenerating results from original paper
 
-## 🧠 Main Findings
+
+##  Main Findings
 
 - Higashi embeddings on enhanced data **retain some biological structure**, but clustering quality is **limited by cell count and training time**.
 - Enhancement improves contact matrix density, but **more cells and longer training** are needed to recover meaningful clusters.
 
 ---
 
-## 🧠 Workflow Summary
+##  Workflow Summary
 
 ```bash
 Raw scHi-C (.pairs)

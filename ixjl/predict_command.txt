@@ -1,0 +1,16 @@
+### Example predict command to run this script:
+
+```
+python predict.py \
+  --data_path /storage/ixjl/cse428/processed_finetune_data_multiple_regions \
+  --config_file /storage/ixjl/cse428/processed_finetune_data_multiple_regions/eval.txt \
+  --checkpoint_path /storage/ixjl/cse428/output_both_files/model/model_best.pth.tar \
+  --output_dir ./predictions/model_both_files \
+  --input_row_size 224 \
+  --input_col_size 224 \
+  --patch_size 16 \
+  --batch_size 1 \
+  --num_workers 1 \
+  --sequence 1 \
+  --device cuda
+```

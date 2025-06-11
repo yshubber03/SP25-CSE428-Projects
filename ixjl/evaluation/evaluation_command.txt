@@ -1,0 +1,29 @@
+python evaluation/evaluation.py \
+  --pred_dir /storage/ixjl/cse428/predictions/model_both_files \
+  --data_dir /storage/ixjl/cse428/processed_finetune_data_multiple_regions/evaluation_data \
+  --output_json ./evaluation/model_both_files/evaluation_summary.json
+
+python evaluation/evaluation.py \
+  --pred_dir /storage/ixjl/cse428/predictions/model_4DNFI643OYP9 \
+  --data_dir /storage/ixjl/cse428/processed_finetune_data_multiple_regions/evaluation_data \
+  --output_json ./evaluation/model_4DNFI643OYP9/evaluation_summary.json
+
+python evaluation/evaluation.py \
+  --pred_dir /storage/ixjl/cse428/predictions/model_noFinetune \
+  --data_dir /storage/ixjl/cse428/processed_finetune_data_multiple_regions/evaluation_data \
+  --output_json ./evaluation/model_noFinetune/evaluation_summary.json
+
+python evaluation/evaluation.py \
+  --pred_dir /storage/ixjl/cse428/predictions/model_noSeq_4DNFI9GMP2J8 \
+  --data_dir /storage/ixjl/cse428/processed_finetune_data_multiple_regions/evaluation_data \
+  --output_json ./evaluation/model_noSeq_4DNFI9GMP2J8/evaluation_summary.json
+
+python evaluation/evaluation.py \
+  --pred_dir /storage/ixjl/cse428/predictions/model_noSeq_4DNFI643OYP9 \
+  --data_dir /storage/ixjl/cse428/processed_finetune_data_multiple_regions/evaluation_data \
+  --output_json ./evaluation/model_noSeq_4DNFI643OYP9/evaluation_summary.json
+
+python evaluation/evaluation.py \
+  --pred_dir /storage/ixjl/cse428/predictions/model_noSeq_both_files \
+  --data_dir /storage/ixjl/cse428/processed_finetune_data_multiple_regions/evaluation_data \
+  --output_json ./evaluation/model_noSeq_both_files/evaluation_summary.json
